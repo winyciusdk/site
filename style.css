@@ -1,0 +1,267 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+@charset "UTF-8";
+
+@font-face {
+    font-family:'fonte titulo' ;
+    src: url("nexa-light.otf");
+}
+
+
+
+
+body
+{
+    background-color: #6cb0f5;
+    color: #191f28;
+    font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+}
+h1{
+    font-family: 'Fonte titulo', sans-serif;
+    font-size: 90px;
+    color: #ffdb58;
+    padding-top: 30px;
+    margin: 5px;
+
+
+
+}
+
+
+h2 {
+    font-family: 'Fonte titulo', sans-serif;
+    font-size: 30px;
+    padding-top: 70px;
+
+    color #;
+}
+
+div#interface {
+    width: 895px;
+    background-color: #6cb0f5;
+    margin: -20px auto auto auto;
+    box-shadow: 0px 0px 30px black;
+    padding: 60px 60px 60px 60px;
+    text-align: justify;
+}
+
+p {
+    text-align: justify;
+    text-indent: 0px;
+    font-family: 'Fonte titulo', sans-serif;
+    padding-top: 50px;
+    margin: 5px;
+}
+mav#menu {
+    display: block;
+}
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 0px;
+    left: 540px;
+    background-color: rgb(243, 194, 154);
+    text-align: auto;
+
+}
+nav#menu li{
+    display: inline-block;
+
+    padding: 30px 12px;
+    margin: 0px;
+    transition: background-color 1s;
+    font-size: 17px;
+    font-family: "Fonte titulo";
+    color #F7819F;
+}
+
+nav#menu li:hover {
+    background-color: #ff9999;
+
+}
+
+nav#menu a {
+    text-decoration: none;
+}
+
+
+
+nav#menu h1{
+    display: none;
+}
+nav#titulo {
+    padding-top: 100px;
+    text-align: center;
+
+}
+nav#imagem {
+    text-align: center;
+    padding-top: 80px;
+
+ }
+
+header#cabecalho img#cabecalho{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+
+header#cabecalho {
+    padding-top: 15px;
+    border-bottom: 2px #EDEBA6 solid;
+}
+header#cabecalho h1{
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+}
+nav#voltar a{
+    font-family: Arial;
+    font-size: 15px;
+    color: yellow;
+    text-decoration: none;
+    box-shadow: 0px 0px 30px black;
+}
+
+header#frases {
+    font-family: 'Fonte titulo',sans-serif;
+    text-align: center;
+    color: yellow;
+}
+
+
+header#videoz {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+}
+video {
+    position: absolute;
+    top: 0px;
+    left:  0px;
+    display: block;
+    width: 100%;
+}
+nav#Fatores {
+    font-family: "Fonte titulo";
+    font-size: 40px;
+    color: yellow;
+    text-shadow: 1px 1px 1px black, -1px 1px 1px black, 1px -1px 1px black, -1px -1px 1px black;
+}
+nav#tituloft {
+    font-family: "Fonte titulo";
+    font-size: 70px;
+    color: yellow;
+}
+
+nav#imagemsin {
+    padding-top: 100px;
+    text-align: center;
+
+}
+nav#texto {
+
+    color: #191f28;
+    margin: 20px;
+}
+
+nav#titulosin{
+    font-size: 40px;
+    font-family: "Fonte titulo";
+    color: #ffdb58;
+}
